@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>🎄 Christmas Gift</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            text-align: center;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .box {
+            background: rgba(0,0,0,0.5);
+            padding: 30px;
+            border-radius: 15px;
+            width: 300px;
+        }
+        input {
+            padding: 10px;
+            width: 100%;
+            border-radius: 8px;
+            border: none;
+            margin-top: 10px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+            background: #e63946;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .gift {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box" id="loginBox">
+    <h2>🎁 Christmas Gift</h2>
+    <p>اكتب الباسورد</p>
+    <input type="password" id="password" placeholder="Password">
+    <button onclick="checkPassword()">فتح الهدية</button>
+    <p id="error" style="color:#ffb703;"></p>
+</div>
+
+<div class="box gift" id="giftBox">
+    <h1>🎄 Merry Christmas!</h1>
+    <p>كل سنة وانت طيب ❤️</p>
+    <p>دي هديتي ليك 🎁✨</p>
+</div>
+
+<script>
+    const correctPassword = "christmas2025"; // غير الباسورد هنا
+
+    function checkPassword() {
+        const input = document.getElementById("password").value;
+        if (input === correctPassword) {
+            document.getElementById("loginBox").style.display = "none";
+            document.getElementById("giftBox").style.display = "block";
+        } else {
+            document.getElementById("error").innerText = "❌ الباسورد غلط";
+        }
+    }
+</script>
+
+</body>
+</html>
