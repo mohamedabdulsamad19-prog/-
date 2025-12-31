@@ -79,7 +79,14 @@
 <div class="box gift" id="giftBox">
     <h1>🎄 Merry Christmas!</h1>
     <p>Kol sana w e7na m3 b3d ❤️</p>
-    <p>Habibti, ana b342k kteer w dayman fi albi 💖</p>
+    <p>Habibti, tuonaaa ❤️
+Enty a7la 7aga 7asalitli fi 7ayati
+Kol yom by3addi ba7ess enny ba7ebek aktar
+De7ktik betfarra2 ma3aya w wogodik by3amalli far7a
+12/12 yom mesh hayetro7 men baly abadan
+Rabena ykhaliki liya w yedemni ganbek daiman
+Merry Christmas ya ro7i w ya kol donyeti💖</p>
+
     <button onclick="document.getElementById('bgMusic').pause()">⏸️ Stop Music</button>
     <button onclick="document.getElementById('bgMusic').play()">▶️ Play Music</button>
 </div>
