@@ -87,9 +87,7 @@ De7ktik betfarra2 ma3aya w wogodik by3amalli far7a
 Rabena ykhaliki liya w yedemni ganbek daiman
 Merry Christmas ya ro7i w ya kol donyeti💖</p>
 
-    <button onclick="document.getElementById('bgMusic').pause()">⏸️ Stop Music</button>
-    <button onclick="document.getElementById('bgMusic').play()">▶️ Play Music</button>
-</div>
+    </div>
 
 <!-- موسيقى -->
 <audio id="bgMusic" autoplay loop>
