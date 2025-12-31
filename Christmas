@@ -60,7 +60,7 @@
 </div>
 
 <script>
-    const correctPassword = "christmas2025"; // غير الباسورد هنا
+    const correctPassword = "12/12/2025"; // 
 
     function checkPassword() {
         const input = document.getElementById("password").value;
