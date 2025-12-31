@@ -100,7 +100,7 @@
             document.getElementById("giftBox").style.display = "block";
             createStars();
         } else {
-            document.getElementById("error").innerText = "❌ الباسورد غلط يسطاا ";
+            document.getElementById("error").innerText = " لا مش دا لو عملتيه غلط هنفخك ";
         }
     }
 
